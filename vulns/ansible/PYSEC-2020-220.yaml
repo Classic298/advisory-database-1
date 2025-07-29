@@ -20,6 +20,7 @@ affected:
   - type: ECOSYSTEM
     events:
     - introduced: '0'
+    - fixed: 1.2.1
   versions:
   - '1.0'
   - '1.1'
