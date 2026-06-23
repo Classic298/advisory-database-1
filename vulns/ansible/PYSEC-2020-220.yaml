@@ -11,6 +11,10 @@ references:
   url: https://github.com/ansible-collections/community.aws/issues/222
 - type: REPORT
   url: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2020-25635
+- type: FIX
+  url: https://github.com/ansible-collections/community.aws/commit/921bd53103c2b543e95c9e6b863702db3ff54d0c
+- type: WEB
+  url: https://github.com/ansible-community/ansible-build-data/blob/main/2.10/CHANGELOG-v2.10.rst#changed-collections-6
 affected:
 - package:
     name: ansible
@@ -20,7 +24,7 @@ affected:
   - type: ECOSYSTEM
     events:
     - introduced: '0'
-    - fixed: 1.2.1
+    - fixed: 2.10.1
   versions:
   - '1.0'
   - '1.1'
@@ -99,12 +103,6 @@ affected:
   - 2.10.0b2
   - 2.10.0rc1
   - 2.10.1
-  - 2.10.2
-  - 2.10.3
-  - 2.10.4
-  - 2.10.5
-  - 2.10.6
-  - 2.10.7
   - 2.2.0.0
   - 2.2.1.0
   - 2.2.2.0
@@ -271,67 +269,7 @@ affected:
   - 2.9.7
   - 2.9.8
   - 2.9.9
-  - 3.0.0
-  - 3.0.0b1
-  - 3.0.0rc1
-  - 3.1.0
-  - 3.2.0
-  - 3.3.0
-  - 3.4.0
-  - 4.0.0
-  - 4.0.0a1
-  - 4.0.0a2
-  - 4.0.0a3
-  - 4.0.0a4
-  - 4.0.0b1
-  - 4.0.0b2
-  - 4.0.0rc1
-  - 4.1.0
-  - 4.2.0
-  - 4.3.0
-  - 4.4.0
-  - 4.5.0
   - 2.9.26rc1
   - 2.9.26
-  - 4.6.0
   - 2.9.27rc1
-  - 5.0.0a1
   - 2.9.27
-  - 4.7.0
-  - 5.0.0a2
-  - 4.8.0
-  - 5.0.0a3
-  - 5.0.0b1
-  - 5.0.0b2
-  - 5.0.0rc1
-  - 4.9.0
-  - 5.0.0
-  - 5.0.1
-  - 4.10.0
-  - 5.1.0
-  - 5.2.0
-  - 5.3.0
-  - 5.4.0
-  - 5.5.0
-  - 5.6.0
-  - 6.0.0a1
-  - 5.7.0
-  - 5.7.1
-  - 6.0.0a2
-  - 6.0.0a3
-  - 5.8.0
-  - 6.0.0b1
-  - 6.0.0b2
-  - 5.9.0
-  - 6.0.0rc1
-  - 6.0.0
-  - 5.10.0
-  - 6.1.0
-  - 6.2.0
-  - 6.3.0
-  - 6.4.0
-  - 7.0.0a1
-  - 6.5.0
-  - 7.0.0a2
-  - 6.6.0
-  - 7.0.0b1
