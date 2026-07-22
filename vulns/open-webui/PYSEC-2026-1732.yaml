@@ -1,6 +1,6 @@
 id: PYSEC-2026-1732
 published: "2026-07-07T16:03:12.102402Z"
-modified: "2026-07-07T17:24:54.562708Z"
+modified: "2026-07-22T20:32:29Z"
 aliases:
 - CVE-2025-63681
 - GHSA-frv8-gffc-37px
@@ -15,7 +15,7 @@ affected:
   - type: ECOSYSTEM
     events:
     - introduced: "0"
-    - last_affected: 0.6.33
+    - fixed: 0.9.0
   versions:
   - 0.1.124
   - 0.1.125
